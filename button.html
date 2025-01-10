@@ -4,16 +4,15 @@
     color: white;
     border: none;
     border-radius: 2px;
-    cursor: pointer;
-    transition: opacity 1s;
-    margin-right: 8px;
+    cursor: pointer; /* di chuột vào sẽ hiện hình bàn tay  */
+    transition: opacity 1s; /*chuyển đổi cho thuộc tính opacity (độ mờ đục) trong 1 giây*/
+    margin-right: 30px; /*cách với các object khác*/
     margin-left: 20px;
-    padding-top: 10px;
-    padding-bottom: 10px;
-    padding-left: 16px;
-    padding-right: 16px;
-    transition: opacity 0.15s;
-    vertical-align: top;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+    vertical-align: top; /* dọc trên cùng */
   }
   .subscribe-button:hover {
     /* phủ mờ 0: trắng mờ dần khi tăng*/
@@ -30,12 +29,13 @@
     color: rgb(6, 95, 212);
     border-radius: 2px;
     cursor: pointer;
-    padding-top: 10px;
-    padding-bottom: 9px;
-    padding-left: 16px;
-    padding-right: 16px;
-
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     transition: background-color 0.15s, color 0.15s;
+    vertical-align: top;
   }
   .join-button:hover {
     background-color: rgb(6, 95, 212);
@@ -45,55 +45,82 @@
     opacity: 0.7;
   }
   .tweet-button {
-    background-color: rgb(2, 158, 255);
+    background-color: rgb(29, 155, 240);
     color: white;
     border: none;
-    height: 36px;
-    width: 74px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border-radius: 18px;
     font-weight: bold;
     font-size: 15px;
     cursor: pointer;
     margin-left: 8px;
-    transition: box-shadow 0.15s;
     vertical-align: top;
   }
   .tweet-button:hover {
-    box-shadow: 5px 5px 10px rgba(0, 0, 0, black);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /* Đỗ bóng thông thường*/
+    /* transition: box-shadow 0.15s; Hiệu ứng chuyển đổi đỗ bóng: ưu điểm mượt mà hơn so với cái trên */
   }
-  /* .Uber-button {
+  .Uber-button {
     background-color: black;
     color: white;
-    height: 36px;
-    width: 100px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     margin-left: 8px;
+    cursor: all-scroll;
+    transition: opacity 1s;
+  }
+  .Uber-button:hover {
+    opacity: 0.5;
   }
   .Amazon-button {
     background-color: rgb(255, 216, 20);
     color: black;
-    height: 36px;
-    width: 100px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border-radius: 18px;
     border: none;
     margin-left: 8px;
+    cursor: cell;
+  }
+  .Amazon-button:hover {
+    background-color: rgb(255, 250, 0);
+    color: black;
   }
   .Github-button {
     background-color: rgb(46, 164, 79);
     color: white;
-    height: 36px;
-    width: 100px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border: none;
     font-weight: bold;
     border-radius: 5px;
     margin-left: 8px;
+  }
+  .Github-button:hover {
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
   }
   .Bootstrap-button {
     background-color: rgb(121, 82, 179);
     color: white;
     border-radius: 5px;
     font-weight: bold;
-    height: 36px;
-    width: 100px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border: none;
     margin-left: 8px;
     cursor: pointer;
@@ -104,21 +131,35 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(108, 117, 125);
-    height: 36px;
-    width: 100px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border-radius: 2px;
     cursor: pointer;
     margin-top: 8px;
   }
+  .Bootstrap2-button:hover {
+    background-color: gray;
+    color: white;
+  }
   .Linkedln-button {
     background-color: rgb(10, 102, 194);
     color: white;
-    height: 36px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border-radius: 18px;
     border: none;
     font-weight: bold;
     margin-left: 8px;
     cursor: cell;
+  }
+  .Linkedln-button:hover {
+    background-color: rgb(3, 57, 110);
+    color: white;
   }
   .Linkedln2-button {
     background-color: white;
@@ -126,21 +167,29 @@
     border-style: solid;
     border-width: 1px;
     color: rgb(10, 102, 194);
-    height: 36px;
-    width: 80px;
+    margin-right: 30px;
+    padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+    padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+    padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+    padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
     border-radius: 18px;
     font-weight: bold;
     margin-left: 8px;
-  } */
+    cursor: col-resize;
+  }
+  .Linkedln2-button:hover {
+    border-width: 3px;
+    border-color: rgb(10, 102, 194);
+  }
 </style>
 <button class="subscribe-button">SUBSCRIBE</button>
 <button class="join-button">JOIN</button>
 <button class="tweet-button">Tweet</button>
-<!-- <button class="Uber-button">Request now</button>
+<button class="Uber-button">Request now</button>
 <button class="Amazon-button">Add to Cart</button>
 <button class="Github-button">Sign up</button>
 <button class="Bootstrap-button">Get started</button>
 <button class="Bootstrap2-button">Download</button>
 <button class="Linkedln-button">Apply on company website</button>
-<button class="Linkedln2-button">Save</button> -->
+<button class="Linkedln2-button">Save</button> --> -->
 <!-- <a>Back to Amazon</a> -->
