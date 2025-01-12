@@ -1,0 +1,182 @@
+.subscribe-button {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer; /* di chuột vào sẽ hiện hình bàn tay  */
+  transition: opacity 1s; /*chuyển đổi cho thuộc tính opacity (độ mờ đục) trong 1 giây*/
+  margin-right: 30px; /*cách với các object khác*/
+  margin-left: 20px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  vertical-align: top; /* dọc trên cùng */
+}
+.subscribe-button:hover {
+  /* phủ mờ 0: trắng mờ dần khi tăng*/
+  opacity: 0.8;
+}
+.subscribe-button:active {
+  opacity: 0.5s;
+}
+.join-button {
+  background-color: white;
+  border-color: rgb(6, 95, 212);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(6, 95, 212);
+  border-radius: 2px;
+  cursor: pointer;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  transition: background-color 0.15s, color 0.15s;
+  vertical-align: top;
+}
+.join-button:hover {
+  background-color: rgb(6, 95, 212);
+  color: white;
+}
+.join-button:active {
+  opacity: 0.7;
+}
+.tweet-button {
+  background-color: rgb(29, 155, 240);
+  color: white;
+  border: none;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  vertical-align: top;
+}
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15); /* Đỗ bóng thông thường*/
+  /* transition: box-shadow 0.15s; Hiệu ứng chuyển đổi đỗ bóng: ưu điểm mượt mà hơn so với cái trên */
+}
+.Uber-button {
+  background-color: black;
+  color: white;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  margin-left: 8px;
+  cursor: all-scroll;
+  transition: opacity 1s;
+}
+.Uber-button:hover {
+  opacity: 0.5;
+}
+.Amazon-button {
+  background-color: rgb(255, 216, 20);
+  color: black;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border-radius: 18px;
+  border: none;
+  margin-left: 8px;
+  cursor: cell;
+}
+.Amazon-button:hover {
+  background-color: rgb(255, 250, 0);
+  color: black;
+}
+.Github-button {
+  background-color: rgb(46, 164, 79);
+  color: white;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border: none;
+  font-weight: bold;
+  border-radius: 5px;
+  margin-left: 8px;
+}
+.Github-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+.Bootstrap-button {
+  background-color: rgb(121, 82, 179);
+  color: white;
+  border-radius: 5px;
+  font-weight: bold;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border: none;
+  margin-left: 8px;
+  cursor: pointer;
+}
+.Bootstrap2-button {
+  background-color: white;
+  border-color: rgb(108, 117, 125);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(108, 117, 125);
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border-radius: 2px;
+  cursor: pointer;
+  margin-top: 8px;
+}
+.Bootstrap2-button:hover {
+  background-color: gray;
+  color: white;
+}
+.Linkedln-button {
+  background-color: rgb(10, 102, 194);
+  color: white;
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border-radius: 18px;
+  border: none;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: cell;
+}
+.Linkedln-button:hover {
+  background-color: rgb(3, 57, 110);
+  color: white;
+}
+.Linkedln2-button {
+  background-color: white;
+  border-color: rgb(10, 102, 194);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(10, 102, 194);
+  margin-right: 30px;
+  padding-top: 10px; /* Nội dung chữ bên trong cách biên trên*/
+  padding-bottom: 9px; /* Nội dung chữ bên trong cách biên dưới*/
+  padding-left: 16px; /* Nội dung chữ bên trong cách biên trái*/
+  padding-right: 16px; /* Nội dung chữ bên trong cách biên phải*/
+  border-radius: 18px;
+  font-weight: bold;
+  margin-left: 8px;
+  cursor: col-resize;
+}
+.Linkedln2-button:hover {
+  border-width: 3px;
+  border-color: rgb(10, 102, 194);
+}
