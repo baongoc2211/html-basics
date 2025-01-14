@@ -1,5 +1,5 @@
 .p {
-  font-family: Arial;
+  font-family: Roboto;
   margin-top: 0;
   margin-bottom: 0;
 }
@@ -9,14 +9,19 @@
   margin-bottom: 20px;
 }
 .video-title {
-  /* font-style: italic ;In Nghieng 
-text - align: center; vi tri noi dung*/
-  font-weight: bold; /*In dam*/
+  font-weight: bold; /* In đậm */
   font-size: 18px;
   width: 300px; /* chieu rong noi dung*/
   line-height: 24px; /* khoan cach hang*/
   margin-bottom: 5px;
 }
+/* .video-title {
+  font-style: italic ;In Nghieng 
+text - align: center; vi tri noi dung
+  font-weight: bold; In dam
+  font-size: 18px;
+  
+} */
 
 .video-author {
   font-size: 14px;
@@ -52,3 +57,38 @@ text - align: center; vi tri noi dung*/
 .shop-link:hover {
   text-decoration: underline;
 }
+/* lesson 6 */
+/* body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: 'Montserrat', sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  text-align: center;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+h1 {
+  font-size: 36px;
+  font-weight: 700; 
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 18px;
+  font-weight: 400; 
+}
+
+.highlight {
+  font-weight: 700;
+  text-decoration: underline;
+} */
