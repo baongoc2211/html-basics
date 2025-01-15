@@ -1,0 +1,96 @@
+/* .thumbnail {
+  width: 300px; chiều rộng
+  height: 300px;
+  object-fit: cover; vừa với chiều rông chiều ngang
+  object-position: right; trong khung object sẽ nằm ở vị trí nào
+  border-width: 2px;
+  border-style: solid;
+  border-color: red;
+}*/
+.body {
+  display: list-item;
+  margin-bottom: 20px;
+}
+.image7 {
+  vertical-align: middle;
+}
+.image {
+  width: 200px;
+  border-radius: 10px;
+}
+.square-image {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+.circle-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.search-bar {
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 12px;
+  padding-left: 10px;
+}
+.searchURL-bar {
+  width: 250px;
+  height: 20px;
+  font-size: 12px;
+  padding-left: 10px;
+  border-radius: 20px;
+  border-width: 1px;
+  cursor: pointer;
+  border: none;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+.linkedln {
+  width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.label {
+  display: block;
+  margin-bottom: 10px;
+}
+.textbox {
+  width: 100%;
+  padding: px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+.p {
+  margin-top: 15px;
+  font-size: 12px;
+  color: #666;
+}
+.linkedln-button {
+  width: 100%;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+.twitter {
+  width: 380px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  vertical-align: auto;
+}
+.image7g {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  object-fit: cover;
+}
