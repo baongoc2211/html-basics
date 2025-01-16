@@ -7,6 +7,33 @@
   border-style: solid;
   border-color: red;
 }*/
+.thumbnail {
+  width: 300px;
+  display: block;
+}
+.search-bar {
+  width: 100px;
+  height: 20px;
+  font-size: 12px;
+  border-radius: 8px;
+  margin-left: 12px;
+  padding-left: 10px;
+  display: block;
+}
+.video-title {
+  width: 300px;
+}
+/*.video-author,
+.video-stats {
+   display: inline-block; cùng dòng
+}*/
+.video-preview {
+  width: 300px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: 15px;
+}
+
 .body {
   display: list-item;
   margin-bottom: 20px;
@@ -29,14 +56,7 @@
   border-radius: 50%;
   object-fit: cover;
 }
-.search-bar {
-  width: 100px;
-  height: 20px;
-  font-size: 12px;
-  border-radius: 8px;
-  margin-left: 12px;
-  padding-left: 10px;
-}
+
 .searchURL-bar {
   width: 250px;
   height: 20px;
@@ -81,16 +101,29 @@
   cursor: pointer;
 }
 .twitter {
-  width: 380px;
-  margin: 0 auto;
-  padding: 20px;
+  display: flex; /* Use flexbox for layout */
+  align-items: center; /* Vertically center content */
+  padding: 10px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  vertical-align: auto;
 }
 .image7g {
   width: 50px;
   height: 50px;
   border-radius: 50%;
   object-fit: cover;
+  margin-right: 10px;
+}
+.twiter-text {
+  flex-grow: 1; /* Allow text to take up remaining space */
+  font-size: 16px;
+  color: #555;
+}
+.twitter-button {
+  background-color: #337ab7;
+  border-radius: 20px;
+  color: white;
+  font-weight: bold;
+  padding: 10px 15px;
+  border: none;
 }
