@@ -1,0 +1,30 @@
+div {
+  text-align: center;
+}
+.google-logo {
+  width: 200px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+input {
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.3);
+  border-radius: 20px;
+  border: none;
+  width: 600px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  margin-bottom: 30px;
+}
+button {
+  background-color: rgb(245, 245, 245);
+  font-family: Arial;
+  font-size: 15px;
+  font-weight: bold;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 20px;
+  padding-right: 20px;
+  border: none;
+}
