@@ -1,0 +1,31 @@
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: Arial;
+  background-color: rgb(120, 82, 178);
+  color: white;
+  padding: 15px 15px;
+}
+.home-link {
+  font-weight: bold;
+}
+.text-box {
+  width: 500px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  padding-left: 20px;
+  height: 30px;
+  color: black;
+}
+button {
+  background-color: rgb(120, 82, 178);
+  color: white;
+  border-color: white;
+  border-width: 1px;
+  border-style: dotted;
+  padding: 5px 15px;
+}
